@@ -1,7 +1,7 @@
 /*
  * Name: LengthOfString.c
  * Author: TiredTiddles
- * Date: 2025-12-05
+ * Date: 2025-12-07
  * 
  * Description:
  * Asks for user input, then outputs the length of the inputted string.
