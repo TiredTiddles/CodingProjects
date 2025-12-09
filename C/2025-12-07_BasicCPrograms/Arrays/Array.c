@@ -1,11 +1,10 @@
 /*
- * Name: AlphanumericPhoneNumberTranslator.c
+ * Name: ArrayReverser.c
  * Author: TiredTiddles
  * Date: 2025-12-07
  * 
  * Description:
- * Converts letters on those pesky phone numbers
- * into numbers.
+ * Reverses an array.
  */
 
 #include <stdio.h>
