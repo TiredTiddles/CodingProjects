@@ -1,0 +1,33 @@
+/*
+ * Name: ArrayCycler.c
+ * Author: TiredTiddles
+ * Date: 2025-12-09
+ *
+ * Description:
+ * Cycles through a 2D array, and prints a newline whenever
+ * row == col.
+ */
+
+#include <stdio.h>
+
+#define N 10
+
+int main(void) {
+    double ident[N][N];
+    int row, col;
+
+    for (row = 0; row < N; row++) {
+        for (col = 0; col < N; col++) {
+            if (row == col) {
+                ident[row][col] = 1.0;
+                printf("\n");
+            }
+            else {
+                ident[row][col] = 0.0;
+            }
+            printf("%lf\t", ident[row][col]);
+        }
+    }
+
+    return 0;
+}
